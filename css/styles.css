@@ -901,7 +901,7 @@ body {
   }
   
   .modal-form-policy-text {
-    margin: 20px auto;
+    margin: 10px auto 20px;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
@@ -921,7 +921,7 @@ body {
   .modal-form-policy:checked + .modal-form-policy-text::before {
     background-color: var(--primary-color);
     border: 0.2px solid var(--primary-color);
-    background-image: url("./img/icons.svg#icon-checkbox.svg");
+    background-image: url(../img/icons.svg#icon-checkbox.svg);
     background-repeat: no-repeat;
     background-position: center;
     transition: background-color var(--timing) cubic-bezier(0.4, 0, 0.2, 1),
