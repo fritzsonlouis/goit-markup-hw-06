@@ -906,6 +906,7 @@ body {
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: var(--secondary-colorFont);
+    width: 452px;
   }
   
   .modal-form-policy-text::before {
@@ -921,7 +922,7 @@ body {
   .modal-form-policy:checked + .modal-form-policy-text::before {
     background-color: var(--primary-color);
     border: 0.2px solid var(--primary-color);
-    background-image: url(../img/icons.svg#icon-checkbox.svg);
+    background-image: url(../img/icon-check.svg);
     background-repeat: no-repeat;
     background-position: center;
     transition: background-color var(--timing) cubic-bezier(0.4, 0, 0.2, 1),
@@ -953,6 +954,15 @@ body {
     background: var(--primary-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border: 1px solid var(--primary-color);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .modal-form-btn:focus,
+  .modal-from-btn:hover {
+    background: #188ce8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
   }
 
